@@ -1,0 +1,14 @@
+.notification-wrapper {
+  position: relative;
+
+  .dot {
+    position: absolute;
+    height: 6px;
+    width: 6px;
+    right: 9px;
+    top: 5px;
+    background-color: $bright-Turquoise;
+    border-radius: 50%;
+    display: inline-block;
+  }
+}

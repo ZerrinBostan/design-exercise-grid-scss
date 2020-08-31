@@ -1,0 +1,22 @@
+.button {
+  background: none;
+  outline: none;
+  cursor: pointer;
+
+  &-notification,
+  &-settings {
+    border: none;
+  }
+
+  &-notification {
+    svg:hover {
+        color: $athens-gray;
+    }
+  }
+
+  &-settings {
+    svg:hover {
+        color: $athens-gray;
+    }
+  }
+}
